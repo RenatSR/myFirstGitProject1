@@ -20,7 +20,7 @@ jobs:
 
 
  my_test:
-  runs-on: xxxxxxaasdDdadadadadubuntu-latestasdasdad
+  runs-on: ubuntu-latest
   steps:
     - name: Print Hello Message in Test
       run: echo 'Hello world from testing'
