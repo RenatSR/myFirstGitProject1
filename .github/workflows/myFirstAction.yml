@@ -1,0 +1,28 @@
+#----------------------------
+#GitHub Actions Part 1- Base
+#
+#Copyleft(C) by Ren Sal 2023
+#----------------------------
+
+name: myGitHubActionsBase1
+
+on:
+ push:
+   branches: 
+         - master
+
+jobs:
+
+
+ my_test:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Print Hello Message
+      run: echo 'Hello world from testing'
+   
+
+ my_deploy:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Print Hello Message
+      run: echo 'Hello world from deploy'
